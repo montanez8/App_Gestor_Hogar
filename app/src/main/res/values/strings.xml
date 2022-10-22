@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HogarGestor</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="txt_create">create</string>
+    <string name="txt_an_account">an account</string>
+    <string name="sign_up">sign up</string>
+    <string name="txt_conditions">I accept the terms and conditions</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_last_name">Last Name</string>
+    <string name="txt_document_number">document number</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_to_home_manager">to home manager</string>
+    <string name="txt_introductionwelcome">The Hogar Gestor is a modality of restoration of rights that consists of accompaniment, counseling and economic support for the strengthening of the family. accompaniment, counseling and economic support for family strengthening, This measure applies to families that have the conditions for the care, affection and attention of children under 18 years of age with disabilities. care, affection and attention of children under 18 years of age with disabilities.</string>
+    <string name="val_name_is_required">name is required</string>
+    <string name="valid_name_letter">The name can only contain letters</string>
+    <string name="valid_last_name_is_required">last name is required</string>
+    <string name="valid_last_name_ontain_letters">The last name can only contain letters</string>
+    <string name="valid_identification_is_required">identification is required</string>
+    <string name="valid_email_is_required">email is required</string>
+    <string name="valid_phone_is_required">phone is required</string>
+    <string name="valid_password_is_required">password is required</string>
+    <string name="valid_accept_the_policies">you must accept the policies</string>
+    <string name="valid_correct">correct</string>
+    <string name="valid_error">error</string>
+    <string name="valid_email_is_not_valid">Invalid email verify valid format user@example.com</string>
+</resources>
