@@ -28,5 +28,6 @@
     <string name="valid_correct">correcto</string>
     <string name="valid_error">error</string>
     <string name="valid_email_is_not_valid">Correo no válido verifique formato válido user@example.com</string>
+    <string name="title_hogargestor">HogarGestor</string>
 
 </resources>
