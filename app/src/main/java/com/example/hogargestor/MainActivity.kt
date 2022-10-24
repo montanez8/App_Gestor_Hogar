@@ -1,10 +1,10 @@
 package com.example.hogargestor
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     private var edt_username: EditText?=null
@@ -19,9 +19,10 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun registeruser(view: View) {
-        val intento = Intent(this,Register_user::class.java)
-        startActivity(intento)
+    fun registeruser() {
+            val intento = Intent(this, Register_user::class.java)
+            startActivity(intento)
+
     }
 
     fun onlogin(view: View) {
@@ -30,9 +31,16 @@ class MainActivity : AppCompatActivity() {
                 val intento =Intent(this,welcome::class.java)
                 startActivity(intento)
             }else{
-                val dialogo= AlertDialog.Builder(this).setTitle("Error")
+
+             val dialogo= AlertDialog.Builder(this).setTitle("Error")
                     .setMessage("Invalid username or password").create().show()
+
             }
+        }else{
+            val dialogo= AlertDialog.Builder(this).setTitle("Error")
+                .setMessage("Invalid username or password").create().show()
         }
     }
+
+
 }

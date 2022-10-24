@@ -91,6 +91,8 @@ class Register_user : AppCompatActivity() {
             chpolicies?.error = getString(R.string.valid_accept_the_policies)
             valid = false
         }
+
+
         return valid
     }
 }
