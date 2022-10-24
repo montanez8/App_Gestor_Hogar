@@ -33,13 +33,5 @@
     <string name="todo_list_assg_ped">asignar un Pediatra</string>
     <string name="todo_list_assig_nut">asignar un nutricionista</string>
     <string name="todo_list_check_history">comprobar el historial médico</string>
-    <string name="invalid_user_password">Usuario o contraseña incorrectos</string>
-    <string name="title_activity_menuapp">Menuapp</string>
-    <string name="title_home">Home</string>
-    <string name="title_About">About</string>
-    <string name="title_notifications">Notifications</string>
-
-
-
 
 </resources>
