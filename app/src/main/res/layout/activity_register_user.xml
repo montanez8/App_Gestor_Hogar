@@ -159,6 +159,7 @@
         android:buttonTint="@color/white"
         android:minHeight="48dp"
         android:text="@string/txt_conditions"
+
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"

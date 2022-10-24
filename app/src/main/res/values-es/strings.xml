@@ -29,5 +29,9 @@
     <string name="valid_error">error</string>
     <string name="valid_email_is_not_valid">Correo no válido verifique formato válido user@example.com</string>
     <string name="title_hogargestor">HogarGestor</string>
+    <string name="todo_list_beneficiary">Registrar un beneficiario</string>
+    <string name="todo_list_assg_ped">asignar un Pediatra</string>
+    <string name="todo_list_assig_nut">asignar un nutricionista</string>
+    <string name="todo_list_check_history">comprobar el historial médico</string>
 
 </resources>

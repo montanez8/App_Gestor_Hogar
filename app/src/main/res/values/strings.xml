@@ -28,4 +28,8 @@
     <string name="valid_error">error</string>
     <string name="valid_email_is_not_valid">Invalid email verify valid format user@example.com</string>
     <string name="title_hogargestor">HogarGestor</string>
+    <string name="todo_list_beneficiary">register a beneficiary</string>
+    <string name="todo_list_assg_ped">assign a pediatrician</string>
+    <string name="todo_list_assig_nut">assign a nutritionist</string>
+    <string name="todo_list_check_history">check medical history</string>
 </resources>
