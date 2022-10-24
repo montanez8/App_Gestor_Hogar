@@ -14,173 +14,166 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginStart="250dp"
+
+        android:layout_marginTop="5dp"
         android:text="@string/txt_create"
         android:textColor="@color/white"
-        android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="240dp"
         android:text="@string/txt_an_account"
         android:textColor="@color/white"
-        android:textSize="40dp"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextnameCreate"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:ems="10"
         android:hint="@string/txt_name"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
 
         android:id="@+id/editTextLastcreate"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:ems="10"
         android:hint="@string/txt_last_name"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextnameCreate" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextEmailAddress"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:ems="10"
         android:hint="@string/txt_email"
         android:inputType="textEmailAddress"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextLastcreate"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:ems="10"
         android:hint="@string/txt_phone"
         android:inputType="phone"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextPasswordcreate"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:ems="10"
         android:hint="@string/txt_password"
         android:inputType="textPassword"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:ems="10"
         android:hint="@string/txt_document_number"
         android:inputType="number"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextLastcreate" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextnameCreate"
+        tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/checkBox_Create"
-        android:layout_width="0dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/button_rounded"
         android:buttonTint="@color/white"
-        android:minHeight="48dp"
-        android:text="@string/txt_conditions"
 
+        android:minHeight="25dp"
+        android:text="@string/txt_conditions"
         android:textColor="@color/white"
+
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordcreate" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/sign_up"
-        android:layout_width="0dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/button_rounded_social"
         android:onClick="onregistersave"
         android:text="@string/sign_up"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_Create" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Create"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
