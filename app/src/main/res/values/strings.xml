@@ -32,4 +32,6 @@
     <string name="todo_list_assg_ped">assign a pediatrician</string>
     <string name="todo_list_assig_nut">assign a nutritionist</string>
     <string name="todo_list_check_history">check medical history</string>
+    <string name="main_start_image">start image</string>
+
 </resources>
